@@ -8,6 +8,7 @@ export default class App extends React.Component {
   render () {
     return (
       <div>
+        <NavBar />
         <div className="columns is-fullheight">
           <SideNav />
           <Landing />
