@@ -1,16 +1,18 @@
 import React from 'react'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 import NavBar from './NavBar'
+import SideNav from './SideNav'
+import Landing from './Landing'
 
-class App extends React.Component {
+export default class App extends React.Component {
   render () {
     return (
       <div>
-        <NavBar />
+        <div className="columns is-fullheight">
+          <SideNav />
+          <Landing />
+        </div>
       </div>
     )
   }
 }
-
-export default App
