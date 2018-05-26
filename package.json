@@ -11,7 +11,7 @@
   "scripts": {
     "knex": "knex --knexfile ./server/db/knexfile.js",
     "dev": "nodemon server --watch server & yarn build --watch",
-    "start": "node server",
+    "start": "yarn build & node server",
     "build": "webpack --config ./client/webpack.config.js",
     "test": "jest --watchAll",
     "resetdb": "yarn knex migrate:rollback; yarn knex migrate:latest && yarn knex seed:run"
