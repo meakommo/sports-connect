@@ -7,10 +7,10 @@
 
 .is-sidebar-menu {
   padding: 2.5rem;
-  background: #4a4a4a;
+  background: #FEFEFD;
 }
 .is-sidebar-menu li a {
-  color: white;
+  color: black;
 }
 
 .columns.is-fullheight {
@@ -25,9 +25,6 @@
   overflow-y: auto;
 }
 
-.is-main-content {
-  background: #dbdbdb;
-}
 .btn-signup {
   background-color: #007FE0;
 }
