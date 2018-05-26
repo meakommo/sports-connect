@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
 
 .navbar-title {
@@ -33,4 +31,7 @@
 .btn-signup {
   background-color: #007FE0;
 }
->>>>>>> 2cfb1a7ccd5da54f1974bd61b224cb640e68bfd9
+
+.navbar {
+  margin-bottom: 10px;
+}
