@@ -1,45 +1,63 @@
 import React from 'react'
-import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap'
 
 class NavBar extends React.Component {
   render () {
     return (
-      <div className="row">
-        <Navbar inverse collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#brand"><span className="navbar-title">The Center of it All</span></a>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav>
-              <NavItem eventKey={1} href="#">
-                About
-              </NavItem>
-              <NavItem eventKey={2} href="#">
-                Profile
-              </NavItem>
-              <NavDropdown eventKey={3} title="Options" id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1}>New Post</MenuItem>
-                <MenuItem eventKey={3.2}>Place Holder</MenuItem>
-                <MenuItem eventKey={3.3}>Place Holder</MenuItem>
-              </NavDropdown>
-            </Nav>
-            {/* 
-            TODO
-            Create a function to switch this when user is logged in */}
-            <Nav pullRight>
-              <NavItem eventKey={1} href="#">
+      <nav className="navbar is-dark">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="https://bulma.io">
+            <img src="http://via.placeholder.com/112x28" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"/>
+          </a>
+          <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" className="navbar-menu">
+          <div className="navbar-start">
+            <a className="navbar-item" href="/">
+        Home
+            </a>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link" href="/">
+          Dropdown
+              </a>
+              <div className="navbar-dropdown is-boxed">
+                <a className="navbar-item" href="/">
+                placeholder
+                </a>
+                <a className="navbar-item" href="/">
+                placeholder
+                </a>
+                <a className="navbar-item is-active" href="/">
+            placeholder
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="field is-grouped">
+                <p className="control">
+                  <a className="button is-login" href="/login">
+                    <span>
                 Login
-              </NavItem>
-              <NavItem eventKey={2} href="#">
-                Sign up
-              </NavItem>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
+                    </span>
+                  </a>
+                </p>
+                <p className="control">
+                  <a className="button is-link" href="/signup">
+                    <span>Signup</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     )
   }
 }

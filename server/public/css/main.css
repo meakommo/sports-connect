@@ -4,3 +4,31 @@
   font-family: 'Pacifico', cursive;
   color: #ad1d1d;
 }
+
+.is-sidebar-menu {
+  padding: 2.5rem;
+  background: #FEFEFD;
+}
+.is-sidebar-menu li a {
+  color: black;
+}
+
+.columns.is-fullheight {
+  min-height: calc(100vh - ( 3.25rem - .75rem ) );
+  max-height: calc(100vh - ( 3.25rem - .75rem ) );
+  height: calc(100vh - ( 3.25rem - .75rem ) );
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.columns.is-fullheight .column {
+  overflow-y: auto;
+}
+
+.btn-signup {
+  background-color: #007FE0;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
