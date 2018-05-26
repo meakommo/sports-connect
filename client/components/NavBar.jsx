@@ -17,21 +17,21 @@ class NavBar extends React.Component {
 
         <div id="navbarExampleTransparentExample" className="navbar-menu">
           <div className="navbar-start">
-            <a className="navbar-item" href="#">
+            <a className="navbar-item" href="/">
         Home
             </a>
             <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link" href="/documentation/overview/start/">
+              <a className="navbar-link" href="/">
           Dropdown
               </a>
               <div className="navbar-dropdown is-boxed">
-                <a className="navbar-item" href="/documentation/overview/start/">
+                <a className="navbar-item" href="/">
                 placeholder
                 </a>
-                <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                <a className="navbar-item" href="/">
                 placeholder
                 </a>
-                <a className="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+                <a className="navbar-item is-active" href="/">
             placeholder
                 </a>
               </div>
@@ -42,14 +42,14 @@ class NavBar extends React.Component {
             <div className="navbar-item">
               <div className="field is-grouped">
                 <p className="control">
-                  <a className="button is-login" target="_blank" href="#">
+                  <a className="button is-login" href="/login">
                     <span>
                 Login
                     </span>
                   </a>
                 </p>
                 <p className="control">
-                  <a className="button is-link" href="#">
+                  <a className="button is-link" href="/signup">
                     <span>Signup</span>
                   </a>
                 </p>
