@@ -39,7 +39,6 @@
     "react": "^16.2.0",
     "react-async-script": "^0.9.1",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "webpack": "^3.11.0",
     "webpack-livereload-plugin": "^1.0.0"
