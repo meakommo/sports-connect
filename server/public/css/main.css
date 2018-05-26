@@ -1,6 +1,36 @@
+<<<<<<< HEAD
+=======
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
 
 .navbar-title {
   font-family: 'Pacifico', cursive;
   color: #ad1d1d;
 }
+
+.is-sidebar-menu {
+  padding: 2.5rem;
+  background: #4a4a4a;
+}
+.is-sidebar-menu li a {
+  color: white;
+}
+
+.columns.is-fullheight {
+  min-height: calc(100vh - ( 3.25rem - .75rem ) );
+  max-height: calc(100vh - ( 3.25rem - .75rem ) );
+  height: calc(100vh - ( 3.25rem - .75rem ) );
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.columns.is-fullheight .column {
+  overflow-y: auto;
+}
+
+.is-main-content {
+  background: #dbdbdb;
+}
+.btn-signup {
+  background-color: #007FE0;
+}
+>>>>>>> 2cfb1a7ccd5da54f1974bd61b224cb640e68bfd9
