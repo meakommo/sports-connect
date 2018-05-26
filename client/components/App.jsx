@@ -1,6 +1,7 @@
 import React from 'react'
 
 import NavBar from './NavBar'
+import Footer from './Footer'
 import SideNav from './SideNav'
 import Landing from './Landing'
 
@@ -13,6 +14,7 @@ export default class App extends React.Component {
           <SideNav />
           <Landing />
         </div>
+        <Footer />
       </div>
     )
   }
