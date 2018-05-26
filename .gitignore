@@ -58,6 +58,5 @@ typings/
 .env
 
 #ignore unneeded files
-bundle.*
 *.sqlite3
 dev.sqlite3
