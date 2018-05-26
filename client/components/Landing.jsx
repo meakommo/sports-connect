@@ -7,12 +7,7 @@ class Landing extends Component {
         <div className="tile is-ancestor">
           <div className="tile is-vertical is-11">
             <div className="tile is-parent">
-              <article className="tile is-child notification is-danger">
-                <p className="title">Wide tile</p>
-                <p className="subtitle">Aligned with the right tile</p>
-                <div className="content">
-                </div>
-              </article>
+              <img src="http://via.placeholder.com/2000x300" />
             </div>
             <div className="tile">
               <div className="tile is-parent">
